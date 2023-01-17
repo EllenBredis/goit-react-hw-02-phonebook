@@ -5,7 +5,7 @@ const Filter=({ filter, onChange })=> {
   return (
     <FilterWrapper>
       <FilterLabel htmlFor="filterInput" >
-        Filter Contacts
+        Find contacts by name
         <FilterInput
           type="text"
           id="filterInput"
